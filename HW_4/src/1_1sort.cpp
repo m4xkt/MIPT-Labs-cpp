@@ -10,7 +10,6 @@ using std::endl;
 using std::cout;
 
 // быстро сортируем за нлогн
-// рандом доступ , тк
 
 template<typename RandomAccessIterator, typename Compare>
 void q_sort(RandomAccessIterator first, RandomAccessIterator last, Compare comp) {
